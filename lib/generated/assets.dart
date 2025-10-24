@@ -2,6 +2,8 @@
 class Assets {
   Assets._();
 
+  static const String authCubitAuthCubit = 'lib/business_logic/cubits/auth_cubit/auth_cubit.dart';
+  static const String authCubitAuthState = 'lib/business_logic/cubits/auth_cubit/auth_state.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String libFirebaseOptions = 'lib/firebase_options.dart';
   static const String libMain = 'lib/main.dart';
@@ -9,5 +11,8 @@ class Assets {
   static const String routingAppRouter = 'lib/core/routing/app_router.dart';
   static const String routingAppRouts = 'lib/core/routing/app_routs.dart';
   static const String screensAuthScreen = 'lib/presentation/screens/auth_screen.dart';
+  static const String screensMapScreen = 'lib/presentation/screens/map_screen.dart';
+  static const String screensOtpScreen = 'lib/presentation/screens/otp_screen.dart';
+  static const String wigetsPinCode = 'lib/presentation/screens/wigets/pin_code.dart';
 
 }
